@@ -1,126 +1,41 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;500;700&display=swap"
-    rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Projetos | Rafael Faiani</title>
+    <style>
+        body { background: #0a0a0f; color: #e2e8f0; font-family: sans-serif; padding: 50px 10%; }
+        h1 { margin-bottom: 40px; }
+        .project-list { display: flex; flex-direction: column; gap: 20px; }
+        .project-item { background: #12121a; padding: 20px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; }
+        .btn { padding: 10px 20px; background: #3b82f6; color: white; text-decoration: none; border-radius: 5px; }
+        a.back { color: #94a3b8; margin-bottom: 20px; display: inline-block; }
+    </style>
 </head>
-
 <body>
-  <div class="parent">
-    <div class="sidebar">
-      <div class="sidebar-pos">
-        <div class="img-sidebar">
-          <img src="rafa.jpg" />
+    <a href="index.html" class="back">← Voltar para o início</a>
+    <h1>Projetos em Power BI</h1>
+    <div class="project-list">
+        <div class="project-item">
+            <span>Dashboard de Vendas</span>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMGQyYzY4MzYtYjkxOS00Yzg2LThiMjYtM2UxYWYxMjY5YWU4IiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9" class="btn">Acessar</a>
         </div>
-        <!--img-->
-        <div class="menu">
-          <a class="selected" href="index.html">Sobre</a>
-          <a class="selected" href="projetos.html">Projetos</a>
+        <div class="project-item">
+            <span>Dashboard de Compras e Logística</span>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMzUxN2IyYWYtYzM3NC00MGY3LWIyNDctY2Q3MGVjN2M3ZDc3IiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9" class="btn">Acessar</a>
         </div>
-        <!--menu-->
-      </div>
-      <!--sidebar-pos-->
+        <div class="project-item">
+            <span>Dashboard de RH</span>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiM2IwNjUxYmEtMGQyZC00ZGRkLWI1YTEtNDVkZjM3ZTM2NTBjIiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9" class="btn">Acessar</a>
+        </div>
+        <div class="project-item">
+            <span>Dashboard de Vendas (V2)</span>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiNGVlOTFmNGMtZjFkNS00NmFlLWE4ZWUtN2E0ZTllOWM1NTZiIiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9" class="btn">Acessar</a>
+        </div>
+        <div class="project-item">
+            <span>Simulador Financeiro</span>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiNzM2ODk2NDYtZGZlYS00NDJhLTkyYWMtOGU2YjhjNzY1MjVjIiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9" class="btn">Acessar</a>
+        </div>
     </div>
-    <!--sidebar-->
-
-    <div class="content">
-      <section class="descricao">
-        <h2>Rafael Faiani | <span>Business Intelligence</span></h2>
-
-        <br>
-        <h3>Projetos | <span> DASHBOARDS</span></h3>
-        <p>
-          <a class="selected"
-            href="https://app.powerbi.com/view?r=eyJrIjoiMGQyYzY4MzYtYjkxOS00Yzg2LThiMjYtM2UxYWYxMjY5YWU4IiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9">POWER
-            BI - Dashboard de Vendas</a>
-          <br>
-          <a class="selected"
-            href="https://app.powerbi.com/view?r=eyJrIjoiMzUxN2IyYWYtYzM3NC00MGY3LWIyNDctY2Q3MGVjN2M3ZDc3IiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9">POWER
-            BI - Dashboard de Compras e Logística</a>
-          <br>
-          <a class="selected" href="https://app.powerbi.com/view?r=eyJrIjoiM2IwNjUxYmEtMGQyZC00ZGRkLWI1YTEtNDVkZjM3ZTM2NTBjIiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9">POWER 
-            BI - Dashboard de RH</a>
-          <br>
-          <a class="selected" href="https://app.powerbi.com/view?r=eyJrIjoiODI5NGUxNTYtMWNhMi00YmQwLWFmOGYtZDQwOTkyOGYyZTA2IiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9">POWER
-            BI - Dashboard de Vendas</a>
-          <br>
-          <a class="selected"
-            href="https://app.powerbi.com/view?r=eyJrIjoiNGVlOTFmNGMtZjFkNS00NmFlLWE4ZWUtN2E0ZTllOWM1NTZiIiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9
-            ">POWER
-            BI - Dashboard de Vendas</a>
-          <br>
-          <a class="selected"
-            href="https://app.powerbi.com/view?r=eyJrIjoiZDM0OTM2OTktOTg3My00ZTIyLWFjM2EtMGVjZDJiZmE5ZjQ1IiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9
-            ">POWER
-            BI - Dashboard de Pagamentos e Recebimentos</a>
-          <br>
-          <a class="selected"
-            href="https://app.powerbi.com/view?r=eyJrIjoiYzVlZTE0MjYtMWU3Ni00ZGMzLThlMDQtMjhjMTIxMzI5NzE1IiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9
-            ">POWER
-            BI - Dashboard de Performance</a>
-          <br>
-          <a class="selected"
-            href="https://app.powerbi.com/view?r=eyJrIjoiYzVjMzk2ZjgtYmI3My00ZjVkLTkwNWYtMjVlNjc3YzZmNzJiIiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9
-            ">POWER
-            BI - Dashboard Financeiro</a>
-          <br>
-          <a class="selected"
-            href="https://app.powerbi.com/view?r=eyJrIjoiZWU1OTg0NGItYmNhMC00ZGM3LWJhNDQtYjhkYzllOTIwYTI3IiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9">POWER
-            BI - Dashboard Vendas x Metas</a>
-          <br>
-          <a class="selected"
-            href="https://app.powerbi.com/view?r=eyJrIjoiOTM0Y2JjOWItMjQ0Yy00NmQ4LTk5MzEtNTZhYzM2OWYzMzhjIiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9">POWER
-            BI - Dashboard Simulação de Vendas</a>
-          <br>
-          <a class="selected"
-            href="https://app.powerbi.com/view?r=eyJrIjoiOTM0Y2JjOWItMjQ0Yy00NmQ4LTk5MzEtNTZhYzM2OWYzMzhjIiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9">POWER
-            BI - Dashboard de Vendas</a>
-          <br>
-          <a class="selected"
-            href="https://app.powerbi.com/view?r=eyJrIjoiYThlYTc1ZDgtNzcwNy00ZTgyLTgxMTQtMzE0ZmE2NjkzYzZiIiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9">POWER
-            BI - Dashboard de RH</a>
-          <br>
-          <a class="selected"
-            href="https://app.powerbi.com/view?r=eyJrIjoiNzM2ODk2NDYtZGZlYS00NDJhLTkyYWMtOGU2YjhjNzY1MjVjIiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9">POWER
-            BI - Dashboard Simulador Financeiro</a>
-          <br>
-          <a class="selected"
-            href="https://app.powerbi.com/view?r=eyJrIjoiYjFlYTc4YmItNmJhZi00MDU2LWIxYWMtNDgwZGY1NTQzMTZkIiwidCI6Ijg2NGE0MjAzLWM2NTEtNDM3MS04ZGM0LTUyZmVlMjU0NzU4YyJ9">POWER
-             BI - Dashboard Google Analytics</a>
-          <br>
-          
-          <br>
-          <a class="selected" href="https://datastudio.google.com/reporting/9f5bab66-7a21-4c62-a8ad-26677f446e6d">GOOGLE
-            DATA STUDIO - Dashboard de
-            Vendas</a>
-
-          <br>
-          <a class="selected" href="https://github.com/rffaiani"># Python #</a>
-
-        </p>
-
-       
-
-
-        <div class="icons-social">
-          <a href="https://www.linkedin.com/in/rffaiani/"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/rffaiani"><i class="fab fa-github"></i></a>
-          <!--
-           -->
-        </div>
-        <!--icons-social-->
-
-      </section>
-
-    </div>
-    <!--content-->
-
-  </div>
-  <!--parent-->
-
 </body>
-
 </html>
